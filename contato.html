@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco - Brilho Dourado</title>
+    <link rel="stylesheet" href="contato.css">
+   
+</head>
+<body>
+     <header class="container" role="banner">
+    <div class="logo">
+      <img src="Brilho Dourado (1).png" alt="">
+    </div>
+    <nav role="navigation" aria-label="Menu Principal">
+      <ul>
+        <li><a href="inicial.html" >Início</a></li>
+        <li><a href="grade.html">Produtos</a></li>
+        <li><a href="pedidos.html" >Pedidos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+    <form role="search" class="search-container" aria-label="Busca de produtos">
+      <input type="search" name="search" placeholder="Buscar" aria-label="Campo de busca" />
+      <button type="submit" aria-label="Botão buscar">
+        🔍
+      </button>
+    </form>
+  </header>
+
+   
+    <main class="main-content">
+        <h1 class="page-title">Fale conosco</h1>
+        
+        <div class="success-message" id="successMessage">
+            Mensagem enviada com sucesso! Entraremos em contato em breve.
+        </div>
+        
+        <div class="error-message" id="errorMessage">
+            Por favor, preencha todos os campos obrigatórios.
+        </div>
+        
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input 
+                    type="text" 
+                    class="form-input" 
+                    id="nome" 
+                    name="nome" 
+                    placeholder="Nome" 
+                    required
+                >
+            </div>
+            
+            <div class="form-group">
+                <input 
+                    type="email" 
+                    class="form-input" 
+                    id="email" 
+                    name="email" 
+                    placeholder="E-mail" 
+                    required
+                >
+            </div>
+            
+            <div class="form-group">
+                <textarea 
+                    class="form-input form-textarea" 
+                    id="mensagem" 
+                    name="mensagem" 
+                    placeholder="Mensagem" 
+                    required
+                ></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Brilho Dourado</h3>
+                    <p>Joias com design atemporal.</p>
+                    <p>© 2024 Brilho Dourado - Todos os direitos reservados.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Ajuda</h3>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#politica">Política de Troca</a></li>
+                        <li><a href="#entrega">Entrega</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Endereço</h3>
+                    <p>Av. das Flores Preciosas, 100 - Bairro Elegante</p>
+                    <p>São Paulo - SP</p>
+                    <p>CEP: 01234-567</p>
+                    <p>(011) 1234-5678</p>
+                    <p>contato@brilhodourado.com.br</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Desenvolvido com amor para realçar sua beleza natural</p>
+            </div>
+        </div>
+    </footer>
+   
+
+       
+</body>
+</html>
+
